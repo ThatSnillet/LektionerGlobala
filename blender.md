@@ -3,10 +3,11 @@
 - [Modellera en Creeper](#modellera) (Jag gillar Minecraft okej 😅)
 - [Mappa till textur](#mappa-till-textur)
 - [Rigga till ett skelett](#rigga-till-ett-skelett)
-- Animera
+- Animera om ni får tid över
 
 ### Bra resurser
 [Blender fundamentals](https://www.youtube.com/playlist?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6)
+[Animera en karaktär](https://m.youtube.com/watch?v=yjjLD3h3yRc)
 
 # Modellera
 ### Skapa modellen
@@ -244,4 +245,4 @@ Då är karaktären riggad till skelettet.
 
 # Animera
 
-Animation Tab, Action editor, keyframes
+Ge karaktären en gå-animation.
