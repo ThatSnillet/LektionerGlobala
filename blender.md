@@ -137,7 +137,7 @@ Unwrappa nu resten enligt mallen. (Tips: tryck på H för att dölja ytor och Al
 
 ### Skapa skelettet
 
-Gå tillbaka till Layout-fliken och tryck Add -> Armature:
+Gå tillbaka till Layout-fliken och tryck Add -> Armature -> Single Bone:
 
 ![bild](https://user-images.githubusercontent.com/70745846/155702427-b622875b-fd07-483d-b642-533b9b15601f.png)
 
