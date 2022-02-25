@@ -7,6 +7,7 @@
 
 ### Bra resurser
 [Blender fundamentals](https://www.youtube.com/playlist?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6)
+
 [Animera en karaktär](https://m.youtube.com/watch?v=yjjLD3h3yRc)
 
 # Modellera
