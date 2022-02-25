@@ -5,6 +5,8 @@
 - [Rigga till ett skelett](#rigga-till-ett-skelett)
 - Animera om ni får tid över
 
+Obs. om ni använder datorns touchplatta, gå in på Edit -> Preferences. Där går ni till Input och bockar i "Emulate 3 Button Mouse".
+
 ### Bra resurser
 [Blender fundamentals](https://www.youtube.com/playlist?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6)
 
