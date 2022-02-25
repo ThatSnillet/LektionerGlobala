@@ -75,10 +75,59 @@ Modellen kommer att mappas enligt följande mall:
 
 <img src="https://user-images.githubusercontent.com/70745846/155527371-af4639b3-e725-412a-b0d4-01c9b6cdb0ed.png" width="700">
 
-Tryck på TAB för att gå in i Edit Mode på modellen.
+Byt till fliken UV Editing
 
-![bild](https://user-images.githubusercontent.com/70745846/155679818-d67438ea-1931-4f9c-91b7-d8f9cd8035e0.png)
+![bild](https://user-images.githubusercontent.com/70745846/155694937-97ca9bcd-a5e3-40be-b753-8861c0968184.png)
 
+Byt till "Edge Select" i 3D-vyn:
+
+![bild](https://user-images.githubusercontent.com/70745846/155695173-1154d7cb-abc9-49a4-b092-6e06b8825f43.png)
+
+Markera kanterna som på bilden:
+
+![bild](https://user-images.githubusercontent.com/70745846/155695399-f87bd2c6-abb0-4d9e-a8cc-e19fba96a214.png)
+
+Högerklicka och välj "Mark Seam". Detta markerar vart sömmarna är när den vecklas ut.
+
+Byt till "Face Select" och markera ytorna på kanten och toppen (inte under):
+
+![bild](https://user-images.githubusercontent.com/70745846/155695760-f117da8e-bbc9-49b4-8620-43b884f9994c.png)
+
+Tryck på UV -> Unwrap:
+
+![bild](https://user-images.githubusercontent.com/70745846/155695819-2d4c6495-0d18-4576-a6e4-aaf0b6e7851f.png)
+
+I UV-editorn, flytta, rotera och skala de utvecklade ytorna så att de passar som på bilden:
+
+![bild](https://user-images.githubusercontent.com/70745846/155696239-73371150-83eb-49bc-9004-8d46e08e94f3.png)
+
+Kom ihåg snabbknappar:
+
+- G: Flytta
+- R: Rotera
+- S: Skala
+
+När de hamnat så bra som möjligt, gå till UV -> Snap -> Selected to Pixels:
+
+![bild](https://user-images.githubusercontent.com/70745846/155696568-2f03e3c5-27bc-4506-a8f3-a406d3f45332.png)
+
+Välj sedan undersidan av huvudet och unwrappa det:
+
+![bild](https://user-images.githubusercontent.com/70745846/155696818-51101815-6d2a-4853-8b34-a2ec0383653b.png)
+
+För att kunna se hur materialet ser ut, gå längs till höger i toppen på 3D-vyn (du kan behöva skrolla) och välj följande läge:
+
+![bild](https://user-images.githubusercontent.com/70745846/155697080-074f70ac-c70c-4e19-8472-11cc63136a73.png)
+
+Nu ser du att huvudet har rätt uteende:
+
+![bild](https://user-images.githubusercontent.com/70745846/155697304-5f8e7d1a-cbbe-4d03-8a10-2528a2710b73.png)
+
+Unwrappa nu resten enligt mallen. (Tips: tryck på H för att dölja ytor och Alt-H för att få tillbaka dem)
+
+### Resultat
+
+![bild](https://user-images.githubusercontent.com/70745846/155697794-5efb949d-0b9c-4f06-8b75-4dca16b48961.png)
 
 
 # Animera
