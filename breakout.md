@@ -49,6 +49,7 @@ Att kameran skakar lite när man förstör ett block gör att det känns mycket 
 
 Det finns många bra exempel på nätet, t.ex. [detta](https://medium.com/nice-things-ios-android-development/basic-2d-screen-shake-in-unity-9c27b56b516)
 
+<!---
 Tips: Om du använder min mall för spelet bör du anropa "screenshake"-metoden du gjort från objektet "LevelGen"
 
 ![image](https://user-images.githubusercontent.com/70745846/162633745-337ac0d7-e908-4d64-b41b-bed48ea1b22b.png)
@@ -56,6 +57,8 @@ Tips: Om du använder min mall för spelet bör du anropa "screenshake"-metoden 
 ![image](https://user-images.githubusercontent.com/70745846/162633779-63013112-3b46-41bf-b038-43281ccf1549.png)
 
 ![image](https://user-images.githubusercontent.com/70745846/162633852-bc367489-9885-4d96-a642-6dbfb439b339.png)
+-->
+
 
 ### Lägg in ljudeffekter
 
