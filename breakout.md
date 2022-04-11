@@ -105,3 +105,41 @@ I scriptet "FailZone", lägg till en referens till ett partikelsystem. När spel
 Med objektet "FailZone" markerat, dra till sist en referens för partikelsystemet till "FailZone" scriptet:
 
 ![bild](https://user-images.githubusercontent.com/70745846/162704115-d851f40c-428e-4305-bf9b-2e311e46cb6a.png)
+
+
+### Lägg in partikelsystem på blocken
+
+En svårare variant av partiklar är att blocken skapar partiklar när de går sönder.
+
+#### Hur ni gör detta på mallen
+
+Börja med att öppna prefaben till blocket:
+
+![bild](https://user-images.githubusercontent.com/70745846/162704670-200f486c-f409-40ad-89c8-984d8ff17639.png)
+
+Skapa ett nytt partikelsystem under blocket:
+
+![bild](https://user-images.githubusercontent.com/70745846/162704748-f9fe4e91-4725-4c3f-b98d-4eeb4c208962.png)
+
+I partikelsystemet bör en del inställningar ändras, viktigast är att "Looping" är av, "Play on Awake" är av och att "Stop Action" är "Destroy".
+
+![bild](https://user-images.githubusercontent.com/70745846/162723127-c12998a0-ca57-4d78-af4a-3096b6604ceb.png)
+
+Sedan behöver det läggas till fyra rader kod i scriptet "BlockBehaviour". Först behöver det finnas en referens till partikelsystemet, sen behöver partikelsystemet Startas och kopplas från blocket innan blocket förstörs:
+
+![bild](https://user-images.githubusercontent.com/70745846/162723400-26f2c292-e350-4253-bfdf-473506a64ae7.png)
+
+Till sist måste referensen till partikelsystemet läggas in i prefaben. Med objektet "Block" markerat, drag referensen till partikelsystemet till scriptet "Block Behaviour":
+
+![bild](https://user-images.githubusercontent.com/70745846/162723705-3ac53fac-b051-4265-a00b-a5f465926c60.png)
+
+Sen finns det många inställningar för att partikelsystemet ska se bra ut. Jag har ändrat inställningar under flikarna "Emission", "Shape", "Color over Lifetime", "Noise" och "Renderer":
+
+![bild](https://user-images.githubusercontent.com/70745846/162724129-9ab9daeb-1589-4973-939a-cb8287073d05.png)
+
+I "Renderer" har jag valt ett eget material till partiklarna. Det materialet ser ut så här:
+
+![bild](https://user-images.githubusercontent.com/70745846/162724269-cf39566a-bba3-4a21-96eb-64eca30e486b.png)
+
+
+
