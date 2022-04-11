@@ -69,23 +69,6 @@ Gå till sist in i "BlockBehaviour" -klassen och anropa den statiska funktionen 
 
 (I min kod lade jag även till en parameter till funktionen som bestämmer magnituden på skakningen)
 
-<!---
-Tips: Om du använder min mall för spelet bör du anropa "screenshake"-metoden du gjort från objektet "LevelGen"
-
-![image](https://user-images.githubusercontent.com/70745846/162633745-337ac0d7-e908-4d64-b41b-bed48ea1b22b.png)
-
-![image](https://user-images.githubusercontent.com/70745846/162633779-63013112-3b46-41bf-b038-43281ccf1549.png)
-
-![image](https://user-images.githubusercontent.com/70745846/162633852-bc367489-9885-4d96-a642-6dbfb439b339.png)
--->
-
-
-### Lägg in ljudeffekter
-
-Det finns många tutorials hur man lägger in ljudeffekter. Testa t.ex. att lägga in ett ljud som spelas när bollen stöter i något.
-
-Det kan vara svårt att hitta bra sidor med gratis ljudeffekter, men t.ex. [Pixabay](https://pixabay.com/sound-effects/) kräver ingen registrering och har en del ljud.
-
 ### Lägg in partikelsystem
 
 Testa att lägga in ett partikelsystem som triggas från bollen när man förlorar. 
@@ -141,5 +124,9 @@ I "Renderer" har jag valt ett eget material till partiklarna. Det materialet ser
 
 ![bild](https://user-images.githubusercontent.com/70745846/162724269-cf39566a-bba3-4a21-96eb-64eca30e486b.png)
 
+### Lägg in ljudeffekter
 
+Det finns många tutorials hur man lägger in ljudeffekter. Testa t.ex. att lägga in ett ljud som spelas när bollen stöter i något.
+
+Det kan vara svårt att hitta bra sidor med gratis ljudeffekter, men t.ex. [Pixabay](https://pixabay.com/sound-effects/) kräver ingen registrering och har en del ljud.
 
