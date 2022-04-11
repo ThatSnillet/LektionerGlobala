@@ -88,4 +88,20 @@ Det kan vara svårt att hitta bra sidor med gratis ljudeffekter, men t.ex. [Pixa
 
 ### Lägg in partikelsystem
 
-Testa att lägga in ett partikelsystem som triggas från bollen när man förlorar. Detta kan vara lite svårare, och är nog lättast att kontrollera från scriptet "FailZone" som gör att man förlorar. (Om du använder min mall)
+Testa att lägga in ett partikelsystem som triggas från bollen när man förlorar. 
+
+#### Hur ni gör det på min mall
+
+Skapa ett nytt partikelsystem och se till att "Play on Awake" inte är ibockat:
+
+![bild](https://user-images.githubusercontent.com/70745846/162703208-3abf2a2c-4cda-46dc-8580-a6acc4f6a7c5.png)
+
+Ett tips är också att i fliken "Emission" sätta "Rate over Time" till 0 och lägga till en burst istället (så att det blir mer som en explosion)
+
+I scriptet "FailZone", lägg till en referens till ett partikelsystem. När spelaren förlorar, gör så att partikelsystemets position flyttas till bollens position, och starta sedan systemet:
+
+![bild](https://user-images.githubusercontent.com/70745846/162703875-6e5782da-b1c9-4fca-9544-805a3dd7e763.png)
+
+Med objektet "FailZone" markerat, dra till sist en referens för partikelsystemet till "FailZone" scriptet:
+
+![bild](https://user-images.githubusercontent.com/70745846/162704115-d851f40c-428e-4305-bf9b-2e311e46cb6a.png)
