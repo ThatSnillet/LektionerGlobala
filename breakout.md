@@ -49,6 +49,22 @@ Att kameran skakar lite när man förstör ett block gör att det känns mycket 
 
 Det finns många bra exempel på nätet, t.ex. [detta](https://medium.com/nice-things-ios-android-development/basic-2d-screen-shake-in-unity-9c27b56b516)
 
+#### Tips på hur ni implementerar ScreenShake i projektmallen
+
+Gör en statisk referens i "screenshake"-klassen du gjort:
+
+![bild](https://user-images.githubusercontent.com/70745846/162698563-7d41ef47-45a7-4085-b86f-a308851eadab.png)
+
+I "Awake" eller "Start" -metoden, lägg in en rad kod för att sätta referensen till objektet:
+
+![bild](https://user-images.githubusercontent.com/70745846/162698739-aeeda658-c749-47da-8b08-75a1043cceb7.png)
+
+Gör sedan en statisk metod som anropar "screenshake" -metoden från referensen:
+
+![bild](https://user-images.githubusercontent.com/70745846/162698959-98665de2-0478-4d50-ad92-682d51cb8fcd.png)
+
+
+
 <!---
 Tips: Om du använder min mall för spelet bör du anropa "screenshake"-metoden du gjort från objektet "LevelGen"
 
