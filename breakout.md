@@ -63,7 +63,11 @@ Gör sedan en statisk metod som anropar "screenshake" -metoden från referensen:
 
 ![bild](https://user-images.githubusercontent.com/70745846/162698959-98665de2-0478-4d50-ad92-682d51cb8fcd.png)
 
+Gå till sist in i "BlockBehaviour" -klassen och anropa den statiska funktionen när blocket förstörs:
 
+![bild](https://user-images.githubusercontent.com/70745846/162699206-d9e2cb2a-dbd6-4f0d-8f74-3210952cb087.png)
+
+(I min kod lade jag även till en parameter till funktionen som bestämmer magnituden på skakningen)
 
 <!---
 Tips: Om du använder min mall för spelet bör du anropa "screenshake"-metoden du gjort från objektet "LevelGen"
